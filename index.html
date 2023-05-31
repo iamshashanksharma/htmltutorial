@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+ <!-- head of an html element is not displayed in the brow
+   browser when web page is displayed, It contains information like 
+page title, link to css etc , web browsers use this head info to render html page correctly
+  -->   
 <head>
-    <meta charset="UTF-8">
+    <!-- meta data is data which describes data-->
+    <meta charset="UTF-8"> <!-- uniform encoding which includes any character form human language hence it means 
+    web page be able to show any language , it could show japanese and english-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <!-- opening tag , content , closing tag combined called element-->
+    <p>My cat is very grumpy</p> 
+
+    <!-- nesting elements -->
+    <!-- There is a proper way of nesting and there is wrong way 
+    one should always take care that which element is inside what -->
+    <p>My cat is <strong>very</strong> grumpy</p>
     
+    <!-- void elements 
+    Not all elements follow same pattern like 
+    opening tag, content , closing tag some are only single tag-->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+    alt="Firefox icon" />"
+    
+    <!-- Attributes tells extra info about element-->
+    <p class="editor-note">My cat is very grumpy</p>
+
+    <!-- we can use double or single quotes as per our convenience but not to mix them-->
+
+   
+
+
 </body>
 </html>
